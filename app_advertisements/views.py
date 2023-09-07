@@ -9,3 +9,4 @@ def top_sellers(request):
     return render(request, 'top-sellers.html')
 
 #python manage.py runserver
+#python manage.py migrate
